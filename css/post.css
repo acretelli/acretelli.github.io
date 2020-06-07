@@ -1,11 +1,43 @@
+.ft-post-content-container {
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+    grid-template-rows: 1fr;
+    align-content: start;
+    padding: 8px;
+}
+
 .ft-video-main-content {
     margin: auto;
     max-width: 700px;
 }
 
+.ft-video-main-content .ft-video-title-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.ft-video-main-content .ft-video-title-container .ft-video-reactions-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.ft-video-main-content .ft-video-title-container .ft-video-reactions-btn img {
+    height: 2rem;
+    width: 2rem;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
 .ft-video-main-content h1 {
+    margin-right: 16px;
     margin-bottom: 8px;
-    font-size: 3rem;
+    font-size: 2rem;
+}
+
+.ft-video-main-content .ft-metabox {
+    margin-bottom: 24px;
 }
 
 .ft-video-main-content .ft-metabox .ft-video-author {
@@ -19,7 +51,7 @@
 }
 
 .ft-video-main-content video {
-    margin: 32px auto;
+    margin: 8px auto;
 }
 
 .ft-comments {
@@ -82,8 +114,37 @@
     border-left: 1px solid #7E2E84;
 }
 
-@media screen and (max-width: 550px) {
+.ft-post-aside {
+    margin: 0 auto;
+    padding: 8px;
+    max-width: 400px;
+}
+
+.ft-post-aside .ft-video-aside {
+    margin: 16px auto;
+}
+
+.ft-post-aside .ft-video-link {
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #7E2E84;
+    font-weight: 700;
+    color: #fdfdfd;
+    cursor: pointer;
+
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 560px) {
     .ft-video-main-content h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
+}
+
+@media screen and (max-width: 990px) {
+    .ft-post-content-container {
+    display: block
+    }
+
 }
