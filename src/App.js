@@ -1,33 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useMemo } from "react";
+import Router from "./routes/Router";
+import { GlobalStyle } from "./styles/globalStyle";
+import { AppContainer } from "./styles/mainStyles";
+import { UserContext } from "./components/UserContext";
+
 
 function App() {
+  const [ language, setLanguage ] = useState("pt");
+
+  const providerLanguage = useMemo(() => ({language, setLanguage}), [language, setLanguage])
   return (
-    <div className="App">
-      <header className="App-header">
-        <h2>Anna Fernandes | Portfólio</h2>
-        <p>
-          Site em manutenção
-        </p>
-        <a
-          className="App-link"
-          href="https://www.linkedin.com/in/annacbfernandes/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Likedin
-        </a>
-        <a
-          className="App-link"
-          href="https://www.behance.net/annacbfernandes"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Behance
-        </a>
-      </header>
-    </div>
+    <AppContainer>
+      <GlobalStyle />
+      <UserContext.Provider value={providerLanguage}>
+      <Router />
+      </UserContext.Provider>
+    </AppContainer>
   );
 }
 
