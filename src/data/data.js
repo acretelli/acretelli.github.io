@@ -20,6 +20,8 @@ import imgKurt3 from "../images/kurt-cobain-3.jpg";
 import imgKurt4 from "../images/kurt-cobain-4.jpg";
 import imgKurt5 from "../images/kurt-cobain-5.jpg";
 import imgKurt6 from "../images/kurt-cobain-6.jpg";
+import imgMaryHelp from "../images/mary-help.jpg";
+import imgMaryHelp2 from "../images/mary-help-2.jpg";
 
 export const pt = [
     {
@@ -130,6 +132,15 @@ export const pt = [
     //     extract: "Chew iPad power cord have secret plans, and sit on human they not getting up ever.",
     //     description: "Chew iPad power cord have secret plans, and sit on human they not getting up ever. Rub face on owner fall over dead (not really but gets sypathy) so eat owner's food, what the heck just happened, something feels fishy, yet demand to have some of whatever the human is cooking, then sniff the offering and walk away and demand to be let outside at once, and expect owner to wait for me as i think about it for meow. " 
     // },
+    {
+        id: "project-13",
+        title: "Mary Help",
+        category: "educational",
+        mainPhoto:imgMaryHelp,
+        photos: [imgMaryHelp, imgMaryHelp2],
+        extract: "Projeto desenvolvido para o Mega Hack Women, com o objetivo de criar uma rede solidária de mulheres.",
+        description: "O Mary Help é um web app pensado para criar uma rede solidária de mulheres na qual uma usuária publica uma necessidade e é ajudada por outras mulheres da rede, seja de forma gratuita, por troca de serviços ou por um preço simbólico. A ideia foi pensada para amenizar a sobrecarga que as mulheres sentem. Nesse projeto, fui responsável pelo layout e pelo desenvolvimento front-end, produzido em React." 
+    },
 ];
 
 export const en = [
@@ -241,4 +252,13 @@ export const en = [
     //     extract: "Chew iPad power cord have secret plans, and sit on human they not getting up ever.",
     //     description: "Chew iPad power cord have secret plans, and sit on human they not getting up ever. Rub face on owner fall over dead (not really but gets sypathy) so eat owner's food, what the heck just happened, something feels fishy, yet demand to have some of whatever the human is cooking, then sniff the offering and walk away and demand to be let outside at once, and expect owner to wait for me as i think about it for meow. " 
     // },
+    {
+        id: "project-13",
+        title: "Mary Help",
+        category: "educational",
+        mainPhoto:imgMaryHelp,
+        photos: [imgMaryHelp, imgMaryHelp2],
+        extract: "The project was developed to the Mega Hack Women, with the puporse to create a women solidarity network",
+        description: "Mary Help is a web app designed to create a solidarity network of women in which a user publishes a need and is helped by other women in the network, whether for free, for exchanging services or for a symbolic price. The idea was designed to ease the burden that women feel. In this project, I was responsible for the layout and front-end development, produced in React." 
+    },
 ];
