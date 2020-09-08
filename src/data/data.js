@@ -1,4 +1,9 @@
 import imgCultivo from "../images/agencia-cultivo.jpg";
+import imgCultivo2 from "../images/agencia-cultivo-2.jpg";
+import imgCultivo3 from "../images/agencia-cultivo-3.jpg";
+import imgCultivo4 from "../images/agencia-cultivo-4.jpg";
+import imgCultivo5 from "../images/agencia-cultivo-5.jpg";
+import imgCultivo6 from "../images/agencia-cultivo-6.jpg";
 import imgSons from "../images/sons-de-porto-alegre.jpg";
 import imgSons2 from "../images/sons-de-porto-alegre-2.jpg";
 import imgSons3 from "../images/sons-de-porto-alegre-3.jpg";
@@ -29,7 +34,7 @@ export const pt = [
         title: "Agência Cultivo",
         category: "professional",
         mainPhoto: imgCultivo,
-        photos: [imgViagem, imgViagem2],
+        photos: [imgCultivo2, imgCultivo3, imgCultivo4, imgCultivo5, imgCultivo6],
         extract: "Site desenvolvido para a Agência Cultivo, organização preocupada com o meio ambiente e a cultura dos pequenos agricultores.",
         description: "O site foi desenvolvido para a Agência Cultivo, uma organização preocupada com o meio ambiente e a cultura dos pequenos agricultores. O layout foi pensado a partir da identidade da marca, usando cores que remetem à natureza. A idéia era passar a imagem de uma marca delicada e elegante, mas também séria e experiente. O backend é montado pelo Wordpress." 
     },
