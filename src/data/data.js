@@ -83,28 +83,28 @@ export const pt = [
     //     title: "Infografia para GaúchaZH e jornal Zero Hora",
     //     category: "infography",
     //     mainPhoto:imgZH,
-    //     photos: [imgViagem, imgViagem2],
+    //     photos: [imgZH],
     //     extract: "Chew iPad power cord have secret plans, and sit on human they not getting up ever.",
     //     description: "Chew iPad power cord have secret plans, and sit on human they not getting up ever. Rub face on owner fall over dead (not really but gets sypathy) so eat owner's food, what the heck just happened, something feels fishy, yet demand to have some of whatever the human is cooking, then sniff the offering and walk away and demand to be let outside at once, and expect owner to wait for me as i think about it for meow. " 
     // },
-    // {
-    //     id: "project-8",
-    //     title: "Infografia para Diário Gaúcho e outros projetos",
-    //     category: "infography",
-    //     mainPhoto:imgDG,
-    //     photos: [imgViagem, imgViagem2],
-    //     extract: "Chew iPad power cord have secret plans, and sit on human they not getting up ever.",
-    //     description: "Chew iPad power cord have secret plans, and sit on human they not getting up ever. Rub face on owner fall over dead (not really but gets sypathy) so eat owner's food, what the heck just happened, something feels fishy, yet demand to have some of whatever the human is cooking, then sniff the offering and walk away and demand to be let outside at once, and expect owner to wait for me as i think about it for meow. " 
-    // },
-    // {
-    //     id: "project-9",
-    //     title: "Infografia e design para Editorial J",
-    //     category: "infography",
-    //     mainPhoto:imgEditorialj,
-    //     photos: [imgViagem, imgViagem2],
-    //     extract: "Chew iPad power cord have secret plans, and sit on human they not getting up ever.",
-    //     description: "Chew iPad power cord have secret plans, and sit on human they not getting up ever. Rub face on owner fall over dead (not really but gets sypathy) so eat owner's food, what the heck just happened, something feels fishy, yet demand to have some of whatever the human is cooking, then sniff the offering and walk away and demand to be let outside at once, and expect owner to wait for me as i think about it for meow. " 
-    // },
+    {
+        id: "project-8",
+        title: "Dossiê Vidas Perdidas",
+        category: "infography",
+        mainPhoto:imgDG,
+        photos: [imgDG],
+        extract: "Projeto desenvolvido pela equipe do jornal Diário Gaúcho sobre as vítimas de homicídio na região metropolitana de Porto Alegre entre os anos de 2011 e 2015.",
+        description: "Projeto desenvolvido pela equipe do jornal Diário Gaúcho como fechamento de cinco anos de coleta de dados própria de vítimas de homicídio na região metropolitana de Porto Alegre, Rio Grande do Sul. A série de reportagens procura analisar quem foram as principais vítimas, os motivos dos crimes e as formas empregadas ao longo desses anos, e quais medidas deveriam ser cobradas do estado para que esse quadro mudasse. Fui responsável pela análise dos número e desenvolvimento de visualização gráfica para as páginas impressa e site."
+    },
+    {
+        id: "project-9",
+        title: "Profissão de risco",
+        category: "infography",
+        mainPhoto:imgEditorialj,
+        photos: [imgEditorialj],
+        extract: "Infográfico desenvolvido para a reportagem especial Profissão de risco, sobre agressão sofridas por jornalistas no mundo.",
+        description: "O infográfico foi produzido a partir da coleta dado divulgada pela Freedom House sobre agressões sofridas por jornalistas entre 1992 e 2013, na qual o Brasil aparece na 91ª posição no ranking de liberdade de imprensa. O desafio foi traduzir dados globais e complexos em duas páginas de jornal, de forma que a leitura ficasse agradável e chamasse a atenção do leitor para um assunto sério." 
+    },
     // {
     //     id: "project-10",
     //     title: "LabeFood",
@@ -207,24 +207,24 @@ export const en = [
     //     extract: "Chew iPad power cord have secret plans, and sit on human they not getting up ever.",
     //     description: "Chew iPad power cord have secret plans, and sit on human they not getting up ever. Rub face on owner fall over dead (not really but gets sypathy) so eat owner's food, what the heck just happened, something feels fishy, yet demand to have some of whatever the human is cooking, then sniff the offering and walk away and demand to be let outside at once, and expect owner to wait for me as i think about it for meow. " 
     // },
-    // {
-    //     id: "project-8",
-    //     title: "Infografia para Diário Gaúcho e outros projetos",
-    //     category: "infography",
-    //     mainPhoto:imgDG,
-    //     photos: [imgViagem, imgViagem2],
-    //     extract: "Chew iPad power cord have secret plans, and sit on human they not getting up ever.",
-    //     description: "Chew iPad power cord have secret plans, and sit on human they not getting up ever. Rub face on owner fall over dead (not really but gets sypathy) so eat owner's food, what the heck just happened, something feels fishy, yet demand to have some of whatever the human is cooking, then sniff the offering and walk away and demand to be let outside at once, and expect owner to wait for me as i think about it for meow. " 
-    // },
-    // {
-    //     id: "project-9",
-    //     title: "Infografia e design para Editorial J",
-    //     category: "infography",
-    //     mainPhoto:imgEditorialj,
-    //     photos: [imgViagem, imgViagem2],
-    //     extract: "Chew iPad power cord have secret plans, and sit on human they not getting up ever.",
-    //     description: "Chew iPad power cord have secret plans, and sit on human they not getting up ever. Rub face on owner fall over dead (not really but gets sypathy) so eat owner's food, what the heck just happened, something feels fishy, yet demand to have some of whatever the human is cooking, then sniff the offering and walk away and demand to be let outside at once, and expect owner to wait for me as i think about it for meow. " 
-    // },
+    {
+        id: "project-8",
+        title: "Lost Lives Dossier",
+        category: "infography",
+        mainPhoto:imgDG,
+        photos: [imgViagem, imgViagem2],
+        extract: "Project developed by the team of the newspaper Diário Gaúcho on homicide victims in the metropolitan region of Porto Alegre between the years 2011 and 2015.",
+        description: "Project developed by the team of the newspaper Diário Gaúcho to make a balance of five years of data collection of homicide victims in the metropolitan area of ​​Porto Alegre, Rio Grande do Sul. The series of reports seeks to analyze who were the main victims, the reasons for the crimes and the forms used over those years, and what measures should be charged to the state for this situation to change. I was responsible for analyzing the numbers and developing graphic visualization for the printed and website pages. " 
+    },
+    {
+        id: "project-9",
+        title: "Infografia e design para Editorial J",
+        category: "infography",
+        mainPhoto:imgEditorialj,
+        photos: [imgEditorialj],
+        extract: "Project developed by the team of the newspaper Diário Gaúcho on homicide victims in the metropolitan region of Porto Alegre between the years 2011 and 2015.",
+        description: "The infographic was produced from the collection released by Freedom House on assaults suffered by journalists between 1992 and 2013, in which Brazil appears in the 91st position in the press freedom ranking. The challenge was to translate global and complex data into two newspaper pages, so that the reading would be pleasant and draw the reader's attention to a serious matter. " 
+    },
     // {
     //     id: "project-10",
     //     title: "LabeFood",

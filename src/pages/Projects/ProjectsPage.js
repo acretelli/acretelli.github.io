@@ -85,7 +85,7 @@ const ProjectsDisplay = () => {
                                 )
                             }
                         })}
-                        {language === "pt" ? <p>Aguarde...</p> : <p>Wait for more...</p>}
+                       
                     </ProjectsContainer>
                 </Container>
                 <Container width="1024px">
