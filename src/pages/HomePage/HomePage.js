@@ -21,7 +21,7 @@ const HomePage = () => {
                         {language === "pt" ? <div>
                             <Subtitle>Oi, eu sou a Anna</Subtitle>
                             <div>
-                                <Headline>Frontend Developer</Headline>
+                                <Headline>Front-end Developer</Headline>
                             </div>
                             <div>
                                 <Headline>Infografista</Headline>
@@ -32,7 +32,7 @@ const HomePage = () => {
                         </div> : <div>
                             <Subtitle>Hi, I am Anna</Subtitle>
                             <div>
-                                <Headline>Frontend Developer</Headline>
+                                <Headline>Front-end Developer</Headline>
                             </div>
                             <div>
                                 <Headline>Infographics Designer</Headline>

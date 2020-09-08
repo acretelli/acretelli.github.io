@@ -32,6 +32,10 @@ export const ContainerColumns = styled.div `
     &:nth-child(even) {
         flex-direction: row-reverse
     }
+
+    @media(max-width: 600px) {
+        display: block;
+    }
 `
 
 export const FullHeightText = styled.div `
