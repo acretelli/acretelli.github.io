@@ -33,7 +33,10 @@ export const GlobalStyle = createGlobalStyle `
     img {
         width: 100%;
     }
-    h1, h2 {
+    h1 {
+        margin: 16px;
+    }
+    h2 {
         margin: 16px 0;
     }
 `

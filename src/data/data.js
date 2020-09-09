@@ -6,19 +6,26 @@ import imgCultivo5 from "../images/agencia-cultivo-5.jpg";
 import imgCultivo6 from "../images/agencia-cultivo-6.jpg";
 import imgSons from "../images/sons-de-porto-alegre.jpg";
 import imgSons2 from "../images/sons-de-porto-alegre-2.jpg";
-import imgSons3 from "../images/sons-de-porto-alegre-3.jpg";
-import imgSons4 from "../images/sons-de-porto-alegre-4.jpg";
 import imgSons5 from "../images/sons-de-porto-alegre-5.jpg";
 import imgSons6 from "../images/sons-de-porto-alegre-6.jpg";
 import imgSons7 from "../images/sons-de-porto-alegre-7.jpg";
 import imgViagem from "../images/viagem-pelo-rs_2.jpg";
 import imgViagem2 from "../images/viagem-pelo-rs.jpg";
 import imgDG from "../images/dossie.jpg";
-import imgZH from "../images/enem.jpg";
+import imgDG2 from "../images/dossie-2.jpg";
+import imgDG3 from "../images/dossie-3.jpg";
+import imgDG4 from "../images/dossie-4.jpg";
+import imgZH from "../images/enem-1.jpg";
+import imgZH2 from "../images/enem.jpg";
+import imgZH3 from "../images/enem-2.jpg";
+import imgZH4 from "../images/enem-3.jpg";
 import imgEditorialj from "../images/info_j.jpg";
 import imgLabefood from "../images/labefood.gif";
 import imgPlanner from "../images/planner.gif";
 import imgLabex from "../images/labex-final.gif";
+import imgLabefood2 from "../images/labefood.jpg";
+import imgPlanner2 from "../images/planner.jpg";
+import imgLabex2 from "../images/labex.jpg";
 import imgKurt from "../images/kurt-cobain.jpg";
 import imgKurt2 from "../images/kurt-cobain-2.jpg";
 import imgKurt3 from "../images/kurt-cobain-3.jpg";
@@ -27,6 +34,9 @@ import imgKurt5 from "../images/kurt-cobain-5.jpg";
 import imgKurt6 from "../images/kurt-cobain-6.jpg";
 import imgMaryHelp from "../images/mary-help.jpg";
 import imgMaryHelp2 from "../images/mary-help-2.jpg";
+import imgRoubosApp from "../images/roubos-app.jpg";
+import imgRoubosApp2 from "../images/roubos-app-2.jpg";
+import imgRoubosApp3 from "../images/roubos-app-3.jpg";
 
 export const pt = [
     {
@@ -83,62 +93,44 @@ export const pt = [
     //     extract: "Chew iPad power cord have secret plans, and sit on human they not getting up ever.",
     //     description: "Chew iPad power cord have secret plans, and sit on human they not getting up ever. Rub face on owner fall over dead (not really but gets sypathy) so eat owner's food, what the heck just happened, something feels fishy, yet demand to have some of whatever the human is cooking, then sniff the offering and walk away and demand to be let outside at once, and expect owner to wait for me as i think about it for meow. " 
     // },
-    // {
-    //     id: "project-7",
-    //     title: "Infografia para GaúchaZH e jornal Zero Hora",
-    //     category: "infography",
-    //     mainPhoto:imgZH,
-    //     photos: [imgZH],
-    //     extract: "Chew iPad power cord have secret plans, and sit on human they not getting up ever.",
-    //     description: "Chew iPad power cord have secret plans, and sit on human they not getting up ever. Rub face on owner fall over dead (not really but gets sypathy) so eat owner's food, what the heck just happened, something feels fishy, yet demand to have some of whatever the human is cooking, then sniff the offering and walk away and demand to be let outside at once, and expect owner to wait for me as i think about it for meow. " 
-    // },
+    {
+        id: "project-7",
+        title: "Análise social dos dados do Enem",
+        category: "infography",
+        mainPhoto:imgZH,
+        photos: [imgZH3, imgZH2, imgZH4],
+        extract: 'Infografia produzida com base nos dados socioeconômicos divulgados pelo Inep coletados durante as provas do Enem em 2018.',
+        description: 'Infografia produzida para a matéria "Não é só mérito", publicada no caderno dominical Doc do jornal Zero Hora e no site Gaúcha ZH. Os gráficos foram feitos a partir da análise dos dados socioeconômicos divulgados pelo Inep coletados durante a aplicação das provas do Enem no ano de 2018. Para a produção, foram utilizados o programa Adobe Illustrator e a biblioteca javascript highcharts.' 
+    },
     {
         id: "project-8",
+        title: "Crimes contra motoristas de app",
+        category: "infography",
+        mainPhoto:imgRoubosApp,
+        photos: [imgRoubosApp2, imgRoubosApp3],
+        extract: 'Infografia produzida para reportagem sobre crimes cometidos contra motoristas de aplicativos, publicada no jornal Zero Hora e no site GaúchaZH.',
+        description: 'A infografia foi produzida para a matéria "2,2 mil condutores de aplicativos foram assaltados em três anos" publicada no jornal Zero Hora e no site GaúchaZH, que analisa os crimes cometidos contra mostoristas de aplicativos no Rio Grande do Sul. A reportagem ganhou o 3º lugar no prêmio Jornalismo-mosca da organização Livre.jor.' 
+    },
+    {
+        id: "project-9",
         title: "Dossiê Vidas Perdidas",
         category: "infography",
         mainPhoto:imgDG,
-        photos: [imgDG],
+        photos: [imgDG2, imgDG3, imgDG4],
         extract: "Projeto desenvolvido pela equipe do jornal Diário Gaúcho sobre as vítimas de homicídio na região metropolitana de Porto Alegre entre os anos de 2011 e 2015.",
         description: "Projeto desenvolvido pela equipe do jornal Diário Gaúcho como fechamento de cinco anos de coleta de dados própria de vítimas de homicídio na região metropolitana de Porto Alegre, Rio Grande do Sul. A série de reportagens procura analisar quem foram as principais vítimas, os motivos dos crimes e as formas empregadas ao longo desses anos, e quais medidas deveriam ser cobradas do estado para que esse quadro mudasse. Fui responsável pela análise dos número e desenvolvimento de visualização gráfica para as páginas impressa e site."
     },
     {
-        id: "project-9",
-        title: "Profissão de risco",
+        id: "project-10",
+        title: "Jornalista: profissão de risco",
         category: "infography",
         mainPhoto:imgEditorialj,
         photos: [imgEditorialj],
         extract: "Infográfico desenvolvido para a reportagem especial Profissão de risco, sobre agressão sofridas por jornalistas no mundo.",
         description: "O infográfico foi produzido a partir da coleta dado divulgada pela Freedom House sobre agressões sofridas por jornalistas entre 1992 e 2013, na qual o Brasil aparece na 91ª posição no ranking de liberdade de imprensa. O desafio foi traduzir dados globais e complexos em duas páginas de jornal, de forma que a leitura ficasse agradável e chamasse a atenção do leitor para um assunto sério." 
     },
-    // {
-    //     id: "project-10",
-    //     title: "LabeFood",
-    //     category: "educational",
-    //     mainPhoto:imgLabefood,
-    //     photos: [imgViagem, imgViagem2],
-    //     extract: "Chew iPad power cord have secret plans, and sit on human they not getting up ever.",
-    //     description: "Chew iPad power cord have secret plans, and sit on human they not getting up ever. Rub face on owner fall over dead (not really but gets sypathy) so eat owner's food, what the heck just happened, something feels fishy, yet demand to have some of whatever the human is cooking, then sniff the offering and walk away and demand to be let outside at once, and expect owner to wait for me as i think about it for meow. " 
-    // },
-    // {
-    //     id: "project-11",
-    //     title: "Planner",
-    //     category: "educational",
-    //     mainPhoto:imgPlanner,
-    //     photos: [imgViagem, imgViagem2],
-    //     extract: "Chew iPad power cord have secret plans, and sit on human they not getting up ever.",
-    //     description: "Chew iPad power cord have secret plans, and sit on human they not getting up ever. Rub face on owner fall over dead (not really but gets sypathy) so eat owner's food, what the heck just happened, something feels fishy, yet demand to have some of whatever the human is cooking, then sniff the offering and walk away and demand to be let outside at once, and expect owner to wait for me as i think about it for meow. " 
-    // },
-    // {
-    //     id: "project-12",
-    //     title: "LabeX",
-    //     category: "educational",
-    //     mainPhoto:imgLabex,
-    //     photos: [imgViagem, imgViagem2],
-    //     extract: "Chew iPad power cord have secret plans, and sit on human they not getting up ever.",
-    //     description: "Chew iPad power cord have secret plans, and sit on human they not getting up ever. Rub face on owner fall over dead (not really but gets sypathy) so eat owner's food, what the heck just happened, something feels fishy, yet demand to have some of whatever the human is cooking, then sniff the offering and walk away and demand to be let outside at once, and expect owner to wait for me as i think about it for meow. " 
-    // },
     {
-        id: "project-13",
+        id: "project-11",
         title: "Mary Help",
         category: "educational",
         mainPhoto:imgMaryHelp,
@@ -146,6 +138,33 @@ export const pt = [
         extract: "Projeto desenvolvido para o Mega Hack Women, com o objetivo de criar uma rede solidária de mulheres.",
         description: "O Mary Help é um web app pensado para criar uma rede solidária de mulheres na qual uma usuária publica uma necessidade e é ajudada por outras mulheres da rede, seja de forma gratuita, por troca de serviços ou por um preço simbólico. A ideia foi pensada para amenizar a sobrecarga que as mulheres sentem. Nesse projeto, fui responsável pelo layout e pelo desenvolvimento front-end, produzido em React." 
     },
+    {
+        id: "project-12",
+        title: "LabeFood",
+        category: "educational",
+        mainPhoto:imgLabefood2,
+        photos: [imgLabefood],
+        extract: "Projeto front-end com a simulação das principais funções de um aplicativo de entrega comida.",
+        description: "Pensado mobile first, a ideia do projeto foi reproduzir as principais funcionalidades de um aplicativo de entrega de comida. A construção do site foi feita toda em React, com estilização em css pela biblioteca styled-components. O projeto teve início no módulo de front-end do Bootcamp Developer Full-stack da Labenu e segue em curso como um projeto pessoal para prática de novas funcionalidade e testes e futura implementação de api própria." 
+    },
+    {
+        id: "project-13",
+        title: "Planner",
+        category: "educational",
+        mainPhoto:imgPlanner2,
+        photos: [imgPlanner],
+        extract: "Projeto front-end de um planner para cadastro de tarefas semanais.",
+        description: "Projeto responzivo de um planner no qual é possível cadastrar as tarefas semanais. A construção do site foi feita em React, com estilização em css pela biblioteca styled-components. O projeto teve início no módulo de front-end do Bootcamp Developer Full-stack da Labenu e segue em curso como um projeto pessoal para prática de novas funcionalidade e testes e futura implementação de api própria." 
+    },
+    {
+        id: "project-14",
+        title: "LabeX",
+        category: "educational",
+        mainPhoto:imgLabex2,
+        photos: [imgLabex],
+        extract: "Projeto front-end de site de cadastro e inscrição para viagens.",
+        description: "Projeto front-end de site de cadastro e inscrição para viagens. A construção do site foi feita em React, com componentes estilizados da biblioteca do google material.io. O projeto teve início no módulo de front-end do Bootcamp Developer Full-stack da Labenu e segue em curso como um projeto pessoal para prática de novas funcionalidade e testes e futura implementação de api própria." 
+    }
 ];
 
 export const en = [
@@ -154,7 +173,7 @@ export const en = [
         title: "Agência Cultivo [Cultivo Agency]",
         category: "professional",
         mainPhoto: imgCultivo,
-        photos: [imgViagem, imgViagem2],
+        photos: [imgCultivo2, imgCultivo3, imgCultivo4, imgCultivo5, imgCultivo6],
         extract: "The website was develop for the company Agência Cultivo, an organization worried about the enviroment and the small farmers culture.",
         description: "The website was develop for the company Agência Cultivo, an organization worried about the enviroment and the small farmers culture. The layout was thought from the idendity of the brand, using colors that refere to nature. The idea was to pass the image of a delicated and elegant brand, but also serious and experient. The backend is handled by Wordpress." 
     },
@@ -203,17 +222,26 @@ export const en = [
     //     extract: "Chew iPad power cord have secret plans, and sit on human they not getting up ever.",
     //     description: "Chew iPad power cord have secret plans, and sit on human they not getting up ever. Rub face on owner fall over dead (not really but gets sypathy) so eat owner's food, what the heck just happened, something feels fishy, yet demand to have some of whatever the human is cooking, then sniff the offering and walk away and demand to be let outside at once, and expect owner to wait for me as i think about it for meow. " 
     // },
-    // {
-    //     id: "project-7",
-    //     title: "Infografia para GaúchaZH e jornal Zero Hora",
-    //     category: "infography",
-    //     mainPhoto:imgZH,
-    //     photos: [imgViagem, imgViagem2],
-    //     extract: "Chew iPad power cord have secret plans, and sit on human they not getting up ever.",
-    //     description: "Chew iPad power cord have secret plans, and sit on human they not getting up ever. Rub face on owner fall over dead (not really but gets sypathy) so eat owner's food, what the heck just happened, something feels fishy, yet demand to have some of whatever the human is cooking, then sniff the offering and walk away and demand to be let outside at once, and expect owner to wait for me as i think about it for meow. " 
-    // },
+    {
+        id: "project-7",
+        title: "Social analysis of Enem data",
+        category: "infography",
+        mainPhoto:imgZH,
+        photos: [imgZH3, imgZH2, imgZH4],
+        extract: 'Infographics produced based on the socioeconomic data released by Inep collected during the Enem tests in 2018.',
+        description: 'Infographics produced for the article "Not just merit", published in the Sunday suplement Doc of the newspaper Zero Hora and on the website Gaúcha ZH. The graphics were made from the analysis of the socioeconomic data released by Inep collected during the application of the Enem tests in 2018. For the production, the Adobe Illustrator program and the javascript highcharts library were used.' 
+    },
     {
         id: "project-8",
+        title: "Crimes against app drivers",
+        category: "infography",
+        mainPhoto:imgRoubosApp,
+        photos: [imgRoubosApp2, imgRoubosApp3],
+        extract: 'Infographics produced for reporting on crimes committed against application drivers, published in the newspaper Zero Hora and on the website GaúchaZH.',
+        description: 'The infographics were produced for the article "2,200 application drivers were robbed in three years" published in the newspaper Zero Hora and on the website GaúchaZH, which analyzes the crimes committed against application developers in Rio Grande do Sul. 3rd place in the Journalism-fly award of the organization Livre.jor.' 
+    },
+    {
+        id: "project-9",
         title: "Lost Lives Dossier",
         category: "infography",
         mainPhoto:imgDG,
@@ -222,7 +250,7 @@ export const en = [
         description: "Project developed by the team of the newspaper Diário Gaúcho to make a balance of five years of data collection of homicide victims in the metropolitan area of ​​Porto Alegre, Rio Grande do Sul. The series of reports seeks to analyze who were the main victims, the reasons for the crimes and the forms used over those years, and what measures should be charged to the state for this situation to change. I was responsible for analyzing the numbers and developing graphic visualization for the printed and website pages. " 
     },
     {
-        id: "project-9",
+        id: "project-10",
         title: "Infografia e design para Editorial J",
         category: "infography",
         mainPhoto:imgEditorialj,
@@ -230,35 +258,8 @@ export const en = [
         extract: "Project developed by the team of the newspaper Diário Gaúcho on homicide victims in the metropolitan region of Porto Alegre between the years 2011 and 2015.",
         description: "The infographic was produced from the collection released by Freedom House on assaults suffered by journalists between 1992 and 2013, in which Brazil appears in the 91st position in the press freedom ranking. The challenge was to translate global and complex data into two newspaper pages, so that the reading would be pleasant and draw the reader's attention to a serious matter. " 
     },
-    // {
-    //     id: "project-10",
-    //     title: "LabeFood",
-    //     category: "educational",
-    //     mainPhoto:imgLabefood,
-    //     photos: [imgViagem, imgViagem2],
-    //     extract: "Chew iPad power cord have secret plans, and sit on human they not getting up ever.",
-    //     description: "Chew iPad power cord have secret plans, and sit on human they not getting up ever. Rub face on owner fall over dead (not really but gets sypathy) so eat owner's food, what the heck just happened, something feels fishy, yet demand to have some of whatever the human is cooking, then sniff the offering and walk away and demand to be let outside at once, and expect owner to wait for me as i think about it for meow. " 
-    // },
-    // {
-    //     id: "project-11",
-    //     title: "Planner",
-    //     category: "educational",
-    //     mainPhoto:imgPlanner,
-    //     photos: [imgViagem, imgViagem2],
-    //     extract: "Chew iPad power cord have secret plans, and sit on human they not getting up ever.",
-    //     description: "Chew iPad power cord have secret plans, and sit on human they not getting up ever. Rub face on owner fall over dead (not really but gets sypathy) so eat owner's food, what the heck just happened, something feels fishy, yet demand to have some of whatever the human is cooking, then sniff the offering and walk away and demand to be let outside at once, and expect owner to wait for me as i think about it for meow. " 
-    // },
-    // {
-    //     id: "project-12",
-    //     title: "LabeX",
-    //     category: "educational",
-    //     mainPhoto:imgLabex,
-    //     photos: [imgViagem, imgViagem2],
-    //     extract: "Chew iPad power cord have secret plans, and sit on human they not getting up ever.",
-    //     description: "Chew iPad power cord have secret plans, and sit on human they not getting up ever. Rub face on owner fall over dead (not really but gets sypathy) so eat owner's food, what the heck just happened, something feels fishy, yet demand to have some of whatever the human is cooking, then sniff the offering and walk away and demand to be let outside at once, and expect owner to wait for me as i think about it for meow. " 
-    // },
     {
-        id: "project-13",
+        id: "project-11",
         title: "Mary Help",
         category: "educational",
         mainPhoto:imgMaryHelp,
@@ -266,4 +267,31 @@ export const en = [
         extract: "The project was developed to the Mega Hack Women, with the puporse to create a women solidarity network",
         description: "Mary Help is a web app designed to create a solidarity network of women in which a user publishes a need and is helped by other women in the network, whether for free, for exchanging services or for a symbolic price. The idea was designed to ease the burden that women feel. In this project, I was responsible for the layout and front-end development, produced in React." 
     },
+    {
+        id: "project-12",
+        title: "LabeFood",
+        category: "educational",
+        mainPhoto:imgLabefood2,
+        photos: [imgLabefood],
+        extract: "Front-end project with the simulation of the main functions of a food delivery application.",
+        description: "Thinking mobile first, the idea of ​​the project was to reproduce the main functionalities of a food delivery application. The construction of the site was done entirely in React, with styling in css by the styled-components library. The project started in the front-end module of Labenu's Bootcamp Developer Full-stack and continues in progress as a personal project to practice new functionality and tests and future implementation of its own api." 
+    },
+    {
+        id: "project-13",
+        title: "Planner",
+        category: "educational",
+        mainPhoto:imgPlanner2,
+        photos: [imgPlanner],
+        extract: "Front-end project of a planner to register weekly tasks.",
+        description: "Responsive project of a planner in which it is possible to register weekly tasks. The construction of the site was done in React, with styling in css by the styled-components library. The project started in the front-end module of Labenu's Bootcamp Developer Full-stack and continues in progress as a personal project to practice new functionality and tests and future implementation of its own api." 
+    },
+    {
+        id: "project-14",
+        title: "LabeX",
+        category: "educational",
+        mainPhoto:imgLabex2,
+        photos: [imgLabex],
+        extract: "Front-end project for travel registration and registration website.",
+        description: "Front-end project for travel registration and registration website. The construction of the site was done in React, with stylized components from the google library material.io. The project started in the front-end module of Labenu's Bootcamp Developer Full-stack and continues in progress as a personal project to practice new functionality and tests and future implementation of its own api." 
+    }
 ];
