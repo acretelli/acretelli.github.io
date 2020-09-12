@@ -11,6 +11,10 @@ import imgSons6 from "../images/sons-de-porto-alegre-6.jpg";
 import imgSons7 from "../images/sons-de-porto-alegre-7.jpg";
 import imgViagem from "../images/viagem-pelo-rs_2.jpg";
 import imgViagem2 from "../images/viagem-pelo-rs.jpg";
+import imgViagem3 from "../images/viagem-pelo-rs_3.jpg";
+import imgViagem4 from "../images/viagem-pelo-rs_4.jpg";
+import imgViagem5 from "../images/viagem-pelo-rs_5.jpg";
+import imgViagem6 from "../images/viagem-pelo-rs_6.jpg";
 import imgDG from "../images/dossie.jpg";
 import imgDG2 from "../images/dossie-2.jpg";
 import imgDG3 from "../images/dossie-3.jpg";
@@ -37,6 +41,10 @@ import imgMaryHelp2 from "../images/mary-help-2.jpg";
 import imgRoubosApp from "../images/roubos-app.jpg";
 import imgRoubosApp2 from "../images/roubos-app-2.jpg";
 import imgRoubosApp3 from "../images/roubos-app-3.jpg";
+import imgGauchaoZh from "../images/gauchao-gzh.jpg";
+import imgGauchaoZh2 from "../images/gauchao-gzh-1.jpg";
+import imgGauchaoZh3 from "../images/gauchao-gzh-2.jpg";
+import imgGauchaoZhGif from "../images/gauchao-gzh.gif";
 
 export const pt = [
     {
@@ -53,7 +61,7 @@ export const pt = [
         title: "Viagem pelo RS",
         category: "professional",
         mainPhoto:imgViagem,
-        photos: [imgViagem, imgViagem2],
+        photos: [imgViagem, imgViagem2, imgViagem5, imgViagem6, imgViagem3, imgViagem4],
         extract: "Projeto desenvolvido para GaúchaZH, empresa de comunicação do Rio Grande do Sul, para ser um guia de viagens pelo estado.",
         description: "Projeto desenvolvido para GaúchaZH, empresa de comunicação localizada no Rio Grande do Sul, com foco nos acontecimentos e na cultura gaúcha. A estrutura foi pensada como um guia de viagens pelo estado, em que o usuário pudesse conhecer várias opções de locais para viagens curtas pelo estado. A navegação permite a personalização do conteúdo mostrado conforme os objetivos do usuário. Fui responsável pelo desenvolvimento do layout, pelo tratamento das imagens e pelo desenvolvimento do html e do css do projeto." 
     },
@@ -75,15 +83,15 @@ export const pt = [
         extract: "Website produzido para celebrar o trabalho e o legado do músico Kurt Cobain, 25 anos após a sua morte.",
         description: "O website foi produzido para celebrar o trabalho e o legado do músico Kurt Cobain, 25 anos após a sua morte. O usuário pode interagir com a página por meio da galeria de fotos, do rádio com músicas do nirvana, e da guitarra no final da página, que tem uma função extra que ensina o usuário a tocar o início da música Come As You Are. O layout foi inspirado no estilo grunge, com uma aparência mais escura e desleixada, propagada por Kurt Cobain no início dos anos 1990. Fui responsável pelo texto e pelo código html, css e parte das função em javascript. A página especial foi publicada no portal da GaúchaZH." 
     },
-    // {
-    //     id: "project-5",
-    //     title: "100 Fatos dos 100 anos do Gauchão",
-    //     category: "other-projects",
-    //     mainPhoto:imgPlanner,
-    //     photos: [imgViagem, imgViagem2],
-    //     extract: "Chew iPad power cord have secret plans, and sit on human they not getting up ever.",
-    //     description: "Chew iPad power cord have secret plans, and sit on human they not getting up ever. Rub face on owner fall over dead (not really but gets sypathy) so eat owner's food, what the heck just happened, something feels fishy, yet demand to have some of whatever the human is cooking, then sniff the offering and walk away and demand to be let outside at once, and expect owner to wait for me as i think about it for meow. " 
-    // },
+    {
+        id: "project-5",
+        title: "100 Fatos dos 100 anos do Gauchão",
+        category: "other-projects",
+        mainPhoto:imgGauchaoZh,
+        photos: [imgGauchaoZhGif, imgGauchaoZh2, imgGauchaoZh3],
+        extract: "Projeto desenvolvido para os 100 anos do gauchão, com uma curiosidade para cada ano do campeonato.",
+        description: "O projeto foi desenvolvido para os 100 anos do gauchão e publicado no portal GaúchaZH. A ideia principal era criar uma enciclopédia na qual o usuário poderia navegar entre as 100 curiosidades do campeonato, uma para cada ano. Foi desenvolvido um menu que, além de indicar o conteúdo para o usuário, facilitava a sua navegação pelo site, podem optar entre a ordem linear das curiosidades ou escolhendo por décadas ou pelo título." 
+    },
     // {
     //     id: "project-6",
     //     title: "Mais projetos para GaúchaZH",
@@ -138,15 +146,15 @@ export const pt = [
         extract: "Projeto desenvolvido para o Mega Hack Women, com o objetivo de criar uma rede solidária de mulheres.",
         description: "O Mary Help é um web app pensado para criar uma rede solidária de mulheres na qual uma usuária publica uma necessidade e é ajudada por outras mulheres da rede, seja de forma gratuita, por troca de serviços ou por um preço simbólico. A ideia foi pensada para amenizar a sobrecarga que as mulheres sentem. Nesse projeto, fui responsável pelo layout e pelo desenvolvimento front-end, produzido em React." 
     },
-    {
-        id: "project-12",
-        title: "LabeFood",
-        category: "educational",
-        mainPhoto:imgLabefood2,
-        photos: [imgLabefood],
-        extract: "Projeto front-end com a simulação das principais funções de um aplicativo de entrega comida.",
-        description: "Pensado mobile first, a ideia do projeto foi reproduzir as principais funcionalidades de um aplicativo de entrega de comida. A construção do site foi feita toda em React, com estilização em css pela biblioteca styled-components. O projeto teve início no módulo de front-end do Bootcamp Developer Full-stack da Labenu e segue em curso como um projeto pessoal para prática de novas funcionalidade e testes e futura implementação de api própria." 
-    },
+    // {
+    //     id: "project-12",
+    //     title: "LabeFood",
+    //     category: "educational",
+    //     mainPhoto:imgLabefood2,
+    //     photos: [imgLabefood],
+    //     extract: "Projeto front-end com a simulação das principais funções de um aplicativo de entrega comida.",
+    //     description: "Pensado mobile first, a ideia do projeto foi reproduzir as principais funcionalidades de um aplicativo de entrega de comida. A construção do site foi feita toda em React, com estilização em css pela biblioteca styled-components. O projeto teve início no módulo de front-end do Bootcamp Developer Full-stack da Labenu e segue em curso como um projeto pessoal para prática de novas funcionalidade e testes e futura implementação de api própria." 
+    // },
     {
         id: "project-13",
         title: "Planner",
@@ -182,7 +190,7 @@ export const en = [
         title: "A trip through RS",
         category: "professional",
         mainPhoto:imgViagem,
-        photos: [imgViagem, imgViagem2],
+        photos: [imgViagem, imgViagem2, imgViagem5, imgViagem6, imgViagem3, imgViagem4],
         extract: "Project developed for the company GaúchaZH, a communication company placed in South of Brazil, witch focus was to repport the news and the gaucho culture.",
         description: "The project was developed for the company GaúchaZH, a communication company placed in South of Brazil, witch focus was to repport the news and the gaucho culture. The structure of the website was planned as a travel guide of the region, in with the user could know many options of places to short travels around the state of Rio Grande do Sul. The navegation allows the personalization of the content showed according to the user's objectives." 
     },
@@ -204,15 +212,15 @@ export const en = [
         extract: "Website developed to celebrate the work and the legacy of the musician Kurt Cobain, 25 after his death.",
         description: "The website was developed to celebrate the work and the legacy of the musician Kurt Cobain, 25 after his death. The user can interact with the page through the photos gallery, the radio player, with nirvana's song, and the guitar in the bottom of the page, that has an extra feacture that teachs the user to play the beginning of Come As You Are. The layout was inspired in the dark and slopy aspect of the grunge, that was disseminated by Kurt Cobain in the beginning of the 90's. I was responsible for writing the text and coding the html, the css and part of the javascript functions. It was published in the news portal GaúchaZH." 
     },
-    // {
-    //     id: "project-5",
-    //     title: "100 Fatos dos 100 anos do Gauchão",
-    //     category: "other-projects",
-    //     mainPhoto:imgPlanner,
-    //     photos: [imgViagem, imgViagem2],
-    //     extract: "Chew iPad power cord have secret plans, and sit on human they not getting up ever.",
-    //     description: "Chew iPad power cord have secret plans, and sit on human they not getting up ever. Rub face on owner fall over dead (not really but gets sypathy) so eat owner's food, what the heck just happened, something feels fishy, yet demand to have some of whatever the human is cooking, then sniff the offering and walk away and demand to be let outside at once, and expect owner to wait for me as i think about it for meow. " 
-    // },
+    {
+        id: "project-5",
+        title: "100 Facts of 100 years of Gauchão",
+        category: "other-projects",
+        mainPhoto:imgGauchaoZh,
+        photos: [imgGauchaoZhGif, imgGauchaoZh2, imgGauchaoZh3],
+        extract: "Project developed for the 100 years of the gauchão, with a curiosity for each year of the championship.",
+        description: "The project was developed for the 100 years of the gauchão and published on the portal GaúchaZH. The main idea was to create an encyclopedia in which the user could browse among the 100 curiosities of the championship, one for each year. A menu was developed that, in addition to indicating the content to the user, facilitated their navigation on the website, they can choose between the linear order of curiosities or choosing for decades or by the title." 
+    },
     // {
     //     id: "project-6",
     //     title: "Mais projetos para GaúchaZH",
@@ -267,15 +275,15 @@ export const en = [
         extract: "The project was developed to the Mega Hack Women, with the puporse to create a women solidarity network",
         description: "Mary Help is a web app designed to create a solidarity network of women in which a user publishes a need and is helped by other women in the network, whether for free, for exchanging services or for a symbolic price. The idea was designed to ease the burden that women feel. In this project, I was responsible for the layout and front-end development, produced in React." 
     },
-    {
-        id: "project-12",
-        title: "LabeFood",
-        category: "educational",
-        mainPhoto:imgLabefood2,
-        photos: [imgLabefood],
-        extract: "Front-end project with the simulation of the main functions of a food delivery application.",
-        description: "Thinking mobile first, the idea of ​​the project was to reproduce the main functionalities of a food delivery application. The construction of the site was done entirely in React, with styling in css by the styled-components library. The project started in the front-end module of Labenu's Bootcamp Developer Full-stack and continues in progress as a personal project to practice new functionality and tests and future implementation of its own api." 
-    },
+    // {
+    //     id: "project-12",
+    //     title: "LabeFood",
+    //     category: "educational",
+    //     mainPhoto:imgLabefood2,
+    //     photos: [imgLabefood],
+    //     extract: "Front-end project with the simulation of the main functions of a food delivery application.",
+    //     description: "Thinking mobile first, the idea of ​​the project was to reproduce the main functionalities of a food delivery application. The construction of the site was done entirely in React, with styling in css by the styled-components library. The project started in the front-end module of Labenu's Bootcamp Developer Full-stack and continues in progress as a personal project to practice new functionality and tests and future implementation of its own api." 
+    // },
     {
         id: "project-13",
         title: "Planner",
