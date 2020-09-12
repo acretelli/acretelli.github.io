@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/static/js/main.27949ada.chunk.js",
-    "main.js.map": "/static/js/main.27949ada.chunk.js.map",
+    "main.js": "/static/js/main.6f50bdca.chunk.js",
+    "main.js.map": "/static/js/main.6f50bdca.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c542aba9.js",
     "runtime-main.js.map": "/static/js/runtime-main.c542aba9.js.map",
-    "static/js/2.b91db33b.chunk.js": "/static/js/2.b91db33b.chunk.js",
-    "static/js/2.b91db33b.chunk.js.map": "/static/js/2.b91db33b.chunk.js.map",
+    "static/js/2.c14eb4f2.chunk.js": "/static/js/2.c14eb4f2.chunk.js",
+    "static/js/2.c14eb4f2.chunk.js.map": "/static/js/2.c14eb4f2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cfc2a280d02152d8cb91f469c2c2bc01.js": "/precache-manifest.cfc2a280d02152d8cb91f469c2c2bc01.js",
+    "precache-manifest.d237b09887aab4aedf63ab06655c5d3c.js": "/precache-manifest.d237b09887aab4aedf63ab06655c5d3c.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.b91db33b.chunk.js.LICENSE.txt": "/static/js/2.b91db33b.chunk.js.LICENSE.txt",
+    "static/js/2.c14eb4f2.chunk.js.LICENSE.txt": "/static/js/2.c14eb4f2.chunk.js.LICENSE.txt",
     "static/media/agencia-cultivo-2.jpg": "/static/media/agencia-cultivo-2.95b589f2.jpg",
     "static/media/agencia-cultivo-3.jpg": "/static/media/agencia-cultivo-3.9e7f7a67.jpg",
     "static/media/agencia-cultivo-4.jpg": "/static/media/agencia-cultivo-4.a6800bcb.jpg",
@@ -28,6 +28,10 @@
     "static/media/enem-2.jpg": "/static/media/enem-2.99fa36c9.jpg",
     "static/media/enem-3.jpg": "/static/media/enem-3.b5bf9861.jpg",
     "static/media/enem.jpg": "/static/media/enem.e27cea00.jpg",
+    "static/media/gauchao-gzh-1.jpg": "/static/media/gauchao-gzh-1.fc36a192.jpg",
+    "static/media/gauchao-gzh-2.jpg": "/static/media/gauchao-gzh-2.e751d6aa.jpg",
+    "static/media/gauchao-gzh.jpg": "/static/media/gauchao-gzh.3e0cc266.jpg",
+    "static/media/gauchao-gzh.gif": "/static/media/gauchao-gzh.68147026.gif",
     "static/media/github-image.svg": "/static/media/github-image.c833c82c.svg",
     "static/media/info_j.jpg": "/static/media/info_j.529bb545.jpg",
     "static/media/instagram.svg": "/static/media/instagram.ef7981df.svg",
@@ -56,12 +60,16 @@
     "static/media/sons-de-porto-alegre-7.jpg": "/static/media/sons-de-porto-alegre-7.6a1325a9.jpg",
     "static/media/sons-de-porto-alegre.jpg": "/static/media/sons-de-porto-alegre.e9dd4d08.jpg",
     "static/media/viagem-pelo-rs.jpg": "/static/media/viagem-pelo-rs.a45582ec.jpg",
-    "static/media/viagem-pelo-rs_2.jpg": "/static/media/viagem-pelo-rs_2.8d25a187.jpg"
+    "static/media/viagem-pelo-rs_2.jpg": "/static/media/viagem-pelo-rs_2.8d25a187.jpg",
+    "static/media/viagem-pelo-rs_3.jpg": "/static/media/viagem-pelo-rs_3.4a396aa4.jpg",
+    "static/media/viagem-pelo-rs_4.jpg": "/static/media/viagem-pelo-rs_4.525367c4.jpg",
+    "static/media/viagem-pelo-rs_5.jpg": "/static/media/viagem-pelo-rs_5.3774afb1.jpg",
+    "static/media/viagem-pelo-rs_6.jpg": "/static/media/viagem-pelo-rs_6.dc2a6655.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c542aba9.js",
-    "static/js/2.b91db33b.chunk.js",
+    "static/js/2.c14eb4f2.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.27949ada.chunk.js"
+    "static/js/main.6f50bdca.chunk.js"
   ]
 }
