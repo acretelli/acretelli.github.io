@@ -51,7 +51,7 @@ const ProjectsDisplay = () => {
                     }
                 })}
             </Container>
-            {language === "pt" ? <LargeBtn onClick={goToProjectsPage}>Mais projetos</LargeBtn> : <LargeBtn onClick={goToProjectsPage}>More projects</LargeBtn>}
+            {language === "pt" ? <LargeBtn onClick={goToProjectsPage}>Todos os projetos</LargeBtn> : <LargeBtn onClick={goToProjectsPage}>All projects</LargeBtn>}
         </Container>
     )
 }
