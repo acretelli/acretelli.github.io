@@ -3,6 +3,10 @@ import imgMaternidade2 from "../images/maternidade-humanizada-3.jpg";
 import imgMaternidade3 from "../images/maternidade-humanizada-7.jpg";
 import imgMaternidade4 from "../images/maternidade-humanizada-5.jpg";
 import imgMaternidade5 from "../images/maternidade-humanizada-6.jpg";
+import imgEcocitrus from "../images/ecocitrus-1.jpg";
+import imgEcocitrus1 from "../images/ecocitrus-2.jpg";
+import imgEcocitrus2 from "../images/ecocitrus-3.jpg";
+import imgEcocitrus3 from "../images/ecocitrus-4.jpg";
 import imgCultivo from "../images/agencia-cultivo.jpg";
 import imgCultivo2 from "../images/agencia-cultivo-2.jpg";
 import imgCultivo3 from "../images/agencia-cultivo-3.jpg";
@@ -62,6 +66,15 @@ export const pt = [
         description: "Projeto desenvolvido para GaúchaZH, empresa de comunicação localizada no Rio Grande do Sul, com foco nos acontecimentos e na cultura gaúcha. O site foi pensado a partir de uma pesquisa extensa com usuários, sobre os conteúdos pelo qual se interessavam mais ou que sentiam falta nas páginas do jornal e do site. A estrutura foi pensada como um guia de viagens pelo estado, em que o usuário pudesse conhecer várias opções de locais para viagens curtas pelo estado. A navegação permite a personalização do conteúdo mostrado conforme os objetivos do usuário. Fui responsável pelo desenvolvimento do layout, pelo tratamento das imagens e pelo desenvolvimento html, css e javascript do projeto." 
     },
     {
+        id: "project-6",
+        title: "Ecocitrus",
+        category: "professional",
+        mainPhoto: imgEcocitrus3,
+        photos: [imgEcocitrus, imgEcocitrus3, imgEcocitrus1, imgEcocitrus2],
+        extract: "Site desenvolvido para Ecocitrus, cooperativa pioneira na produção orgânica de sucos e óleos essenciais de citros no Vale do Caí, cinturão produtor dessa cultura no Rio Grande do Sul.",
+        description: "O site foi desenvolvido para a Ecocitrus, cooperativa pioneira na produção orgânica de sucos e óleos essenciais de citros no Vale do Caí, cinturão produtor dessa cultura no Rio Grande do Sul. A identidade visual se identifica com o que mostra o conteúdo: a Ecocitrus é mais sobre o trabalho cooperativo e as pessoas do que com o industrialismo, por isso os conceitos utilizados foram leveza, clareza, movimento, fluidez e modernidade o que reflete a força e o diferencial  da marca. O layout segue a identidade da marca, buscando a leveza e a fluidez do logotipo da empresa. Os estilos são mais orgânicos, de forma que o site tenha um ar mais moderno. " 
+    },
+    {
         id: "project-3",
         title: "Sons de Porto Alegre",
         category: "professional",
@@ -101,6 +114,15 @@ export const pt = [
 
 export const en = [
     {
+        id: "project-0",
+        title: "Humanized Maternity",
+        category: "educational",
+        mainPhoto: imgMaternidade,
+        photos: [imgMaternidade4, imgMaternidade5, imgMaternidade3, imgMaternidade2],
+        extract: "Project developed for the User Experience course at the British School of Creative Arts (EBAC)",
+        description: "The app Humanized Maternity emerged from the research on the difficulties that mothers and future mothers face in maternity. The main objective is to alleviate the burden of mothers and pregnant women, gathering important information, professionals, clinics and appointment alerts in a single app, with the possibility of sharing the mother's tasks, creating a support network. After the initial research on the topic, reading reports and interviews, the main point pointed out by recent mothers and pregnant women is the lack of information and the burden of commitment to the baby (medical appointments, exams, vaccination, etc.). Humanized Maternity seeks to solve mothers' difficulties based on the principles of humanized childbirth, with their ideas continued after childbirth, bringing the concept of humanized motherhood. The app guides you through every day of your pregnancy. It helps to keep you organized and informed about the changes and developments that happen in your body and for your growing baby. The app was designed based on Jung's archetype “Caregiver”. The idea is that the technology used can facilitate the routine of mothers and pregnant women, relieving the burden of domestic tasks and family care, centralizing and organizing the time of these women. The tone of voice used is casual, so that mothers can effortlessly understand and feel comfortable in communication. It is serious and respectful, as it seeks to alleviate difficulties and violence that women suffer, in a way that shows that it is not a matter treated as a joke, but with care and attention. The main color of the brand is purple, which in many cultures represents strength, wisdom and peace. Purple can also evoke a feeling of tranquility that reduces stress. The shades of beige soften the strength of purple, and represent the diversity of colors of mothers and babies. A sans-serif font was chosen for short texts, rounded to convey comfort. The serif font is used in longer texts, for easier reading. Both are used in light weight, to give more lightness to the texts, or bold, to highlight specific excerpts. A bolder display font was chosen to create the logo. The illustrations and icons follow the colors of the palette and are thought to be simple, but with a visual that attracts attention. They are used to represent the app and illustrate informative texts. The icons are populated, with options with background details and no background details. They are used to facilitate the identification of the app's functionalities." 
+    },
+    {
         id: "project-1",
         title: "Agência Cultivo [Cultivo Agency]",
         category: "professional",
@@ -117,6 +139,15 @@ export const en = [
         photos: [imgViagem, imgViagem2, imgViagem5, imgViagem6, imgViagem3, imgViagem4],
         extract: "Project developed for the company GaúchaZH, a communication company placed in South of Brazil, witch focus was to repport the news and the gaucho culture.",
         description: "Project developed for GaúchaZH, a communication company located in Rio Grande do Sul, with a focus on events and culture in Rio Grande do Sul. The site was designed from an extensive survey of users, about the content they were most interested in or missed on the pages of the newspaper and the website. The structure was designed as a travel guide for the state, in which the user could know several options of places for short trips around the state. Navigation allows the customization of the content shown according to the user's objectives. I was responsible for the layout development, image treatment and the project's html, css and javascript development." 
+    },
+    {
+        id: "project-6",
+        title: "Ecocitrus",
+        category: "professional",
+        mainPhoto: imgEcocitrus3,
+        photos: [imgEcocitrus, imgEcocitrus3, imgEcocitrus1, imgEcocitrus2],
+        extract: "Website developed for Ecocitrus, a pioneer cooperative in the organic production of citrus juices and essential oils in Vale do Caí, a belt that produces this culture in Rio Grande do Sul.",
+        description: "The website was developed for Ecocitrus, a pioneer cooperative in the organic production of citrus juices and essential oils in Vale do Caí, a belt that produces this culture in Rio Grande do Sul. The visual identity is identified with what the content shows: Ecocitrus is more about cooperative work and people than with industrialism, so the concepts used were lightness, clarity, movement, fluidity and modernity which reflects the strength and differential of the brand. The layout follows the brand identity, seeking the lightness and fluidity of the company logo. The styles are more organic, so that the site has a more modern look." 
     },
     {
         id: "project-3",
