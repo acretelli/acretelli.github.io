@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6bdbfdbb2183c7b4e584333b82b00f3",
+    "revision": "4ea2ae0862a4f73480c524c8367faf9f",
     "url": "/index.html"
   },
   {
-    "revision": "5e9ddcda3b1dc6d67dce",
+    "revision": "bb673384d23728b0905a",
     "url": "/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "4f4228a77281ede8fb2b",
-    "url": "/static/js/2.7fedb51c.chunk.js"
+    "revision": "0a4f4d557b6da736f93b",
+    "url": "/static/js/2.e799a906.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.7fedb51c.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.e799a906.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5e9ddcda3b1dc6d67dce",
-    "url": "/static/js/main.9b593725.chunk.js"
+    "revision": "bb673384d23728b0905a",
+    "url": "/static/js/main.500f6967.chunk.js"
   },
   {
     "revision": "0934e5a0629121a12638",
@@ -150,6 +150,50 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8901b5eaa7473bde6cf949e1e56c286e",
     "url": "/static/media/maternidade-humanizada-7.8901b5ea.jpg"
+  },
+  {
+    "revision": "0d1f7f5c7c41c566b7810cdb2b3c65ea",
+    "url": "/static/media/medroom_10.0d1f7f5c.png"
+  },
+  {
+    "revision": "51ded5b1c64587ccc9f8d585ba722d07",
+    "url": "/static/media/medroom_12.51ded5b1.png"
+  },
+  {
+    "revision": "2a15fff17e91bdb46f9b1fb196f6c61c",
+    "url": "/static/media/medroom_13.2a15fff1.png"
+  },
+  {
+    "revision": "0422b45ecf129a77acd8fbb55ef5cdf5",
+    "url": "/static/media/medroom_2.0422b45e.png"
+  },
+  {
+    "revision": "c1bfce04b001b5a5251f30c373fb781b",
+    "url": "/static/media/medroom_3.c1bfce04.png"
+  },
+  {
+    "revision": "b161a67e09c19dae40f02553e75e63ee",
+    "url": "/static/media/medroom_4.b161a67e.png"
+  },
+  {
+    "revision": "a050efc31bf7326de6773641057adc28",
+    "url": "/static/media/medroom_5.a050efc3.png"
+  },
+  {
+    "revision": "777a174b1fabceda25bb3398ec176583",
+    "url": "/static/media/medroom_6.777a174b.png"
+  },
+  {
+    "revision": "24ff6634fb5c61f63e99f92158bac4ca",
+    "url": "/static/media/medroom_7.24ff6634.png"
+  },
+  {
+    "revision": "d4f87da692651f4f6da1580bf1fe2468",
+    "url": "/static/media/medroom_8.d4f87da6.png"
+  },
+  {
+    "revision": "d80a567e8df70102899a51aa5d561f6a",
+    "url": "/static/media/medroom_9.d80a567e.png"
   },
   {
     "revision": "2ca5adb014ea9fd6a6796b6fe58a786f",

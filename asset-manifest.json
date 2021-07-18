@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/static/js/main.9b593725.chunk.js",
-    "main.js.map": "/static/js/main.9b593725.chunk.js.map",
+    "main.js": "/static/js/main.500f6967.chunk.js",
+    "main.js.map": "/static/js/main.500f6967.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c542aba9.js",
     "runtime-main.js.map": "/static/js/runtime-main.c542aba9.js.map",
-    "static/js/2.7fedb51c.chunk.js": "/static/js/2.7fedb51c.chunk.js",
-    "static/js/2.7fedb51c.chunk.js.map": "/static/js/2.7fedb51c.chunk.js.map",
+    "static/js/2.e799a906.chunk.js": "/static/js/2.e799a906.chunk.js",
+    "static/js/2.e799a906.chunk.js.map": "/static/js/2.e799a906.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e6a121308956ed09602a78d6ec581c7f.js": "/precache-manifest.e6a121308956ed09602a78d6ec581c7f.js",
+    "precache-manifest.37e712a1bb104f29f653e2f423c53c88.js": "/precache-manifest.37e712a1bb104f29f653e2f423c53c88.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.7fedb51c.chunk.js.LICENSE.txt": "/static/js/2.7fedb51c.chunk.js.LICENSE.txt",
+    "static/js/2.e799a906.chunk.js.LICENSE.txt": "/static/js/2.e799a906.chunk.js.LICENSE.txt",
     "static/media/agencia-cultivo-2.jpg": "/static/media/agencia-cultivo-2.95b589f2.jpg",
     "static/media/agencia-cultivo-3.jpg": "/static/media/agencia-cultivo-3.9e7f7a67.jpg",
     "static/media/agencia-cultivo-4.jpg": "/static/media/agencia-cultivo-4.a6800bcb.jpg",
@@ -44,6 +44,17 @@
     "static/media/maternidade-humanizada-5.jpg": "/static/media/maternidade-humanizada-5.ede46ef1.jpg",
     "static/media/maternidade-humanizada-6.jpg": "/static/media/maternidade-humanizada-6.d9e03f73.jpg",
     "static/media/maternidade-humanizada-7.jpg": "/static/media/maternidade-humanizada-7.8901b5ea.jpg",
+    "static/media/medroom_10.png": "/static/media/medroom_10.0d1f7f5c.png",
+    "static/media/medroom_12.png": "/static/media/medroom_12.51ded5b1.png",
+    "static/media/medroom_13.png": "/static/media/medroom_13.2a15fff1.png",
+    "static/media/medroom_2.png": "/static/media/medroom_2.0422b45e.png",
+    "static/media/medroom_3.png": "/static/media/medroom_3.c1bfce04.png",
+    "static/media/medroom_4.png": "/static/media/medroom_4.b161a67e.png",
+    "static/media/medroom_5.png": "/static/media/medroom_5.a050efc3.png",
+    "static/media/medroom_6.png": "/static/media/medroom_6.777a174b.png",
+    "static/media/medroom_7.png": "/static/media/medroom_7.24ff6634.png",
+    "static/media/medroom_8.png": "/static/media/medroom_8.d4f87da6.png",
+    "static/media/medroom_9.png": "/static/media/medroom_9.d80a567e.png",
     "static/media/profile_pic_2.JPG": "/static/media/profile_pic_2.2ca5adb0.JPG",
     "static/media/sons-de-porto-alegre-2.jpg": "/static/media/sons-de-porto-alegre-2.5d200d9d.jpg",
     "static/media/sons-de-porto-alegre-5.jpg": "/static/media/sons-de-porto-alegre-5.904f869e.jpg",
@@ -59,8 +70,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c542aba9.js",
-    "static/js/2.7fedb51c.chunk.js",
+    "static/js/2.e799a906.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.9b593725.chunk.js"
+    "static/js/main.500f6967.chunk.js"
   ]
 }
