@@ -33,7 +33,7 @@ const ProjectsDisplay = () => {
         <Container width="100%">
             <Container>
                 {data().map( project => {
-                    if(project.category === "professional") {
+                    if(project.highlight) {
                         return (
                             <ContainerColumns key={project.id}>
                                 <FullHeightImg>

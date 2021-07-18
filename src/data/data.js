@@ -3,6 +3,10 @@ import imgMaternidade2 from "../images/maternidade-humanizada-3.jpg";
 import imgMaternidade3 from "../images/maternidade-humanizada-7.jpg";
 import imgMaternidade4 from "../images/maternidade-humanizada-5.jpg";
 import imgMaternidade5 from "../images/maternidade-humanizada-6.jpg";
+import imgEcocitrus from "../images/ecocitrus-1.jpg";
+import imgEcocitrus1 from "../images/ecocitrus-2.jpg";
+import imgEcocitrus2 from "../images/ecocitrus-3.jpg";
+import imgEcocitrus3 from "../images/ecocitrus-4.jpg";
 import imgCultivo from "../images/agencia-cultivo.jpg";
 import imgCultivo2 from "../images/agencia-cultivo-2.jpg";
 import imgCultivo3 from "../images/agencia-cultivo-3.jpg";
@@ -32,10 +36,32 @@ import imgGauchaoZh from "../images/gauchao-gzh.jpg";
 import imgGauchaoZh2 from "../images/gauchao-gzh-1.jpg";
 import imgGauchaoZh3 from "../images/gauchao-gzh-2.jpg";
 import imgGauchaoZhGif from "../images/gauchao-gzh.gif";
+import imgMedroom2 from "../images/medroom_2.png";
+import imgMedroom3 from "../images/medroom_3.png";
+import imgMedroom4 from "../images/medroom_4.png";
+import imgMedroom5 from "../images/medroom_5.png";
+import imgMedroom6 from "../images/medroom_6.png";
+import imgMedroom7 from "../images/medroom_7.png";
+import imgMedroom8 from "../images/medroom_8.png";
+import imgMedroom9 from "../images/medroom_9.png";
+import imgMedroom10 from "../images/medroom_10.png";
+import imgMedroom12 from "../images/medroom_12.png";
+import imgMedroom13 from "../images/medroom_13.png";
 
 export const pt = [
     {
+        id: "project-12",
+        highlight: true,
+        title: "Plataforma Medroom",
+        category: "professional",
+        mainPhoto: imgMedroom12,
+        photos: [imgMedroom2, imgMedroom3, imgMedroom4, imgMedroom5, imgMedroom6, imgMedroom7, imgMedroom8, imgMedroom9, imgMedroom10, imgMedroom13],
+        extract: "Projeto desenvolvido para a empresa de realidade virtual voltada à educação médica Medroom",
+        description: "A plataforma web da Medroom é um projeto construído do zero, passando por todas as etapas de análise da experiência do usuário até criação e programação da interface. Para isso, foram realizados pesquisa de mercado, construção de personas, jornada do usuário e mapa de empatia, insights e priorização de tarefas, prototipação e layout final da plataforma. As ferramentas utilizadas foram Figma, Adobe Illustrator e Adobe Photoshop. O desenvolvimento de front-end foi feito utilizando-se Nextjs, Reactjs e Typescript, com integração de dados em API REST. Também foi feita a criação e a manutenção do storybook com o guia de estilos e os componentes da plataforma web. " 
+    },
+    {
         id: "project-0",
+        highlight: true,
         title: "Maternidade Humanizada",
         category: "educational",
         mainPhoto: imgMaternidade,
@@ -45,6 +71,7 @@ export const pt = [
     },
     {
         id: "project-1",
+        highlight: false,
         title: "Agência Cultivo",
         category: "professional",
         mainPhoto: imgCultivo,
@@ -54,6 +81,7 @@ export const pt = [
     },
     {
         id: "project-2",
+        highlight: true,
         title: "Viagem pelo RS",
         category: "professional",
         mainPhoto:imgViagem,
@@ -62,7 +90,18 @@ export const pt = [
         description: "Projeto desenvolvido para GaúchaZH, empresa de comunicação localizada no Rio Grande do Sul, com foco nos acontecimentos e na cultura gaúcha. O site foi pensado a partir de uma pesquisa extensa com usuários, sobre os conteúdos pelo qual se interessavam mais ou que sentiam falta nas páginas do jornal e do site. A estrutura foi pensada como um guia de viagens pelo estado, em que o usuário pudesse conhecer várias opções de locais para viagens curtas pelo estado. A navegação permite a personalização do conteúdo mostrado conforme os objetivos do usuário. Fui responsável pelo desenvolvimento do layout, pelo tratamento das imagens e pelo desenvolvimento html, css e javascript do projeto." 
     },
     {
+        id: "project-6",
+        highlight: false,
+        title: "Ecocitrus",
+        category: "professional",
+        mainPhoto: imgEcocitrus3,
+        photos: [imgEcocitrus, imgEcocitrus3, imgEcocitrus1, imgEcocitrus2],
+        extract: "Site desenvolvido para Ecocitrus, cooperativa pioneira na produção orgânica de sucos e óleos essenciais de citros no Vale do Caí, cinturão produtor dessa cultura no Rio Grande do Sul.",
+        description: "O site foi desenvolvido para a Ecocitrus, cooperativa pioneira na produção orgânica de sucos e óleos essenciais de citros no Vale do Caí, cinturão produtor dessa cultura no Rio Grande do Sul. A identidade visual se identifica com o que mostra o conteúdo: a Ecocitrus é mais sobre o trabalho cooperativo e as pessoas do que com o industrialismo, por isso os conceitos utilizados foram leveza, clareza, movimento, fluidez e modernidade o que reflete a força e o diferencial  da marca. O layout segue a identidade da marca, buscando a leveza e a fluidez do logotipo da empresa. Os estilos são mais orgânicos, de forma que o site tenha um ar mais moderno. " 
+    },
+    {
         id: "project-3",
+        highlight: false,
         title: "Sons de Porto Alegre",
         category: "professional",
         mainPhoto: imgSons,
@@ -72,6 +111,7 @@ export const pt = [
     },
     {
         id: "project-4",
+        highlight: false,
         title: "25 anos sem Kurt",
         category: "other-projects",
         mainPhoto: imgKurt,
@@ -81,6 +121,7 @@ export const pt = [
     },
     {
         id: "project-5",
+        highlight: false,
         title: "100 Fatos dos 100 anos do Gauchão",
         category: "other-projects",
         mainPhoto:imgGauchaoZh,
@@ -90,6 +131,7 @@ export const pt = [
     },
     {
         id: "project-11",
+        highlight: false,
         title: "Mary Help",
         category: "educational",
         mainPhoto:imgMaryHelp,
@@ -101,7 +143,28 @@ export const pt = [
 
 export const en = [
     {
+        id: "project-12",
+        highlight: true,
+        title: "Medroom Web Platform",
+        category: "professional",
+        mainPhoto: imgMedroom12,
+        photos: [imgMedroom2, imgMedroom3, imgMedroom4, imgMedroom5, imgMedroom6, imgMedroom7, imgMedroom8, imgMedroom9, imgMedroom10, imgMedroom13],
+        extract: "Project developed for the medical education virtual reality company Medroom",
+        description: "Medroom's web platform is a project built from scratch, going through all the steps from user experience analysis to interface creation and programming. For this, market research, construction of personas, user journey and empathy map, insights and task prioritization, prototyping and the final layout of the platform were carried out. The tools used were Figma, Adobe Illustrator and Adobe Photoshop. Front-end development was done using Nextjs, Reactjs and Typescript, with data integration in REST API. The storybook was created and maintained with the style guide and web platform components." 
+    },
+    {
+        id: "project-0",
+        highlight: true,
+        title: "Humanized Maternity",
+        category: "educational",
+        mainPhoto: imgMaternidade,
+        photos: [imgMaternidade4, imgMaternidade5, imgMaternidade3, imgMaternidade2],
+        extract: "Project developed for the User Experience course at the British School of Creative Arts (EBAC)",
+        description: "The app Humanized Maternity emerged from the research on the difficulties that mothers and future mothers face in maternity. The main objective is to alleviate the burden of mothers and pregnant women, gathering important information, professionals, clinics and appointment alerts in a single app, with the possibility of sharing the mother's tasks, creating a support network. After the initial research on the topic, reading reports and interviews, the main point pointed out by recent mothers and pregnant women is the lack of information and the burden of commitment to the baby (medical appointments, exams, vaccination, etc.). Humanized Maternity seeks to solve mothers' difficulties based on the principles of humanized childbirth, with their ideas continued after childbirth, bringing the concept of humanized motherhood. The app guides you through every day of your pregnancy. It helps to keep you organized and informed about the changes and developments that happen in your body and for your growing baby. The app was designed based on Jung's archetype “Caregiver”. The idea is that the technology used can facilitate the routine of mothers and pregnant women, relieving the burden of domestic tasks and family care, centralizing and organizing the time of these women. The tone of voice used is casual, so that mothers can effortlessly understand and feel comfortable in communication. It is serious and respectful, as it seeks to alleviate difficulties and violence that women suffer, in a way that shows that it is not a matter treated as a joke, but with care and attention. The main color of the brand is purple, which in many cultures represents strength, wisdom and peace. Purple can also evoke a feeling of tranquility that reduces stress. The shades of beige soften the strength of purple, and represent the diversity of colors of mothers and babies. A sans-serif font was chosen for short texts, rounded to convey comfort. The serif font is used in longer texts, for easier reading. Both are used in light weight, to give more lightness to the texts, or bold, to highlight specific excerpts. A bolder display font was chosen to create the logo. The illustrations and icons follow the colors of the palette and are thought to be simple, but with a visual that attracts attention. They are used to represent the app and illustrate informative texts. The icons are populated, with options with background details and no background details. They are used to facilitate the identification of the app's functionalities." 
+    },
+    {
         id: "project-1",
+        highlight: false,
         title: "Agência Cultivo [Cultivo Agency]",
         category: "professional",
         mainPhoto: imgCultivo,
@@ -111,6 +174,7 @@ export const en = [
     },
     {
         id: "project-2",
+        highlight: true,
         title: "A trip through RS",
         category: "professional",
         mainPhoto:imgViagem,
@@ -119,7 +183,18 @@ export const en = [
         description: "Project developed for GaúchaZH, a communication company located in Rio Grande do Sul, with a focus on events and culture in Rio Grande do Sul. The site was designed from an extensive survey of users, about the content they were most interested in or missed on the pages of the newspaper and the website. The structure was designed as a travel guide for the state, in which the user could know several options of places for short trips around the state. Navigation allows the customization of the content shown according to the user's objectives. I was responsible for the layout development, image treatment and the project's html, css and javascript development." 
     },
     {
+        id: "project-6",
+        highlight: false,
+        title: "Ecocitrus",
+        category: "professional",
+        mainPhoto: imgEcocitrus3,
+        photos: [imgEcocitrus, imgEcocitrus3, imgEcocitrus1, imgEcocitrus2],
+        extract: "Website developed for Ecocitrus, a pioneer cooperative in the organic production of citrus juices and essential oils in Vale do Caí, a belt that produces this culture in Rio Grande do Sul.",
+        description: "The website was developed for Ecocitrus, a pioneer cooperative in the organic production of citrus juices and essential oils in Vale do Caí, a belt that produces this culture in Rio Grande do Sul. The visual identity is identified with what the content shows: Ecocitrus is more about cooperative work and people than with industrialism, so the concepts used were lightness, clarity, movement, fluidity and modernity which reflects the strength and differential of the brand. The layout follows the brand identity, seeking the lightness and fluidity of the company logo. The styles are more organic, so that the site has a more modern look." 
+    },
+    {
         id: "project-3",
+        highlight: false,
         title: "The sounds of Porto Alegre",
         category: "professional",
         mainPhoto: imgSons,
@@ -129,6 +204,7 @@ export const en = [
     },
     {
         id: "project-4",
+        highlight: false,
         title: "25 years without Kurt",
         category: "other-projects",
         mainPhoto: imgKurt,
@@ -138,6 +214,7 @@ export const en = [
     },
     {
         id: "project-5",
+        highlight: false,
         title: "100 Facts of 100 years of Gauchão",
         category: "other-projects",
         mainPhoto:imgGauchaoZh,
@@ -147,6 +224,7 @@ export const en = [
     },
     {
         id: "project-11",
+        highlight: false,
         title: "Mary Help",
         category: "educational",
         mainPhoto:imgMaryHelp,
