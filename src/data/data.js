@@ -36,10 +36,32 @@ import imgGauchaoZh from "../images/gauchao-gzh.jpg";
 import imgGauchaoZh2 from "../images/gauchao-gzh-1.jpg";
 import imgGauchaoZh3 from "../images/gauchao-gzh-2.jpg";
 import imgGauchaoZhGif from "../images/gauchao-gzh.gif";
+import imgMedroom2 from "../images/medroom_2.png";
+import imgMedroom3 from "../images/medroom_3.png";
+import imgMedroom4 from "../images/medroom_4.png";
+import imgMedroom5 from "../images/medroom_5.png";
+import imgMedroom6 from "../images/medroom_6.png";
+import imgMedroom7 from "../images/medroom_7.png";
+import imgMedroom8 from "../images/medroom_8.png";
+import imgMedroom9 from "../images/medroom_9.png";
+import imgMedroom10 from "../images/medroom_10.png";
+import imgMedroom12 from "../images/medroom_12.png";
+import imgMedroom13 from "../images/medroom_13.png";
 
 export const pt = [
     {
+        id: "project-12",
+        highlight: true,
+        title: "Plataforma Medroom",
+        category: "professional",
+        mainPhoto: imgMedroom12,
+        photos: [imgMedroom2, imgMedroom3, imgMedroom4, imgMedroom5, imgMedroom6, imgMedroom7, imgMedroom8, imgMedroom9, imgMedroom10, imgMedroom13],
+        extract: "Projeto desenvolvido para a empresa de realidade virtual voltada à educação médica Medroom",
+        description: "A plataforma web da Medroom é um projeto construído do zero, passando por todas as etapas de análise da experiência do usuário até criação e programação da interface. Para isso, foram realizados pesquisa de mercado, construção de personas, jornada do usuário e mapa de empatia, insights e priorização de tarefas, prototipação e layout final da plataforma. As ferramentas utilizadas foram Figma, Adobe Illustrator e Adobe Photoshop. O desenvolvimento de front-end foi feito utilizando-se Nextjs, Reactjs e Typescript, com integração de dados em API REST. Também foi feita a criação e a manutenção do storybook com o guia de estilos e os componentes da plataforma web. " 
+    },
+    {
         id: "project-0",
+        highlight: true,
         title: "Maternidade Humanizada",
         category: "educational",
         mainPhoto: imgMaternidade,
@@ -49,6 +71,7 @@ export const pt = [
     },
     {
         id: "project-1",
+        highlight: false,
         title: "Agência Cultivo",
         category: "professional",
         mainPhoto: imgCultivo,
@@ -58,6 +81,7 @@ export const pt = [
     },
     {
         id: "project-2",
+        highlight: true,
         title: "Viagem pelo RS",
         category: "professional",
         mainPhoto:imgViagem,
@@ -67,6 +91,7 @@ export const pt = [
     },
     {
         id: "project-6",
+        highlight: false,
         title: "Ecocitrus",
         category: "professional",
         mainPhoto: imgEcocitrus3,
@@ -76,6 +101,7 @@ export const pt = [
     },
     {
         id: "project-3",
+        highlight: false,
         title: "Sons de Porto Alegre",
         category: "professional",
         mainPhoto: imgSons,
@@ -85,6 +111,7 @@ export const pt = [
     },
     {
         id: "project-4",
+        highlight: false,
         title: "25 anos sem Kurt",
         category: "other-projects",
         mainPhoto: imgKurt,
@@ -94,6 +121,7 @@ export const pt = [
     },
     {
         id: "project-5",
+        highlight: false,
         title: "100 Fatos dos 100 anos do Gauchão",
         category: "other-projects",
         mainPhoto:imgGauchaoZh,
@@ -103,6 +131,7 @@ export const pt = [
     },
     {
         id: "project-11",
+        highlight: false,
         title: "Mary Help",
         category: "educational",
         mainPhoto:imgMaryHelp,
@@ -114,7 +143,18 @@ export const pt = [
 
 export const en = [
     {
+        id: "project-12",
+        highlight: true,
+        title: "Medroom Web Platform",
+        category: "professional",
+        mainPhoto: imgMedroom12,
+        photos: [imgMedroom2, imgMedroom3, imgMedroom4, imgMedroom5, imgMedroom6, imgMedroom7, imgMedroom8, imgMedroom9, imgMedroom10, imgMedroom13],
+        extract: "Project developed for the medical education virtual reality company Medroom",
+        description: "Medroom's web platform is a project built from scratch, going through all the steps from user experience analysis to interface creation and programming. For this, market research, construction of personas, user journey and empathy map, insights and task prioritization, prototyping and the final layout of the platform were carried out. The tools used were Figma, Adobe Illustrator and Adobe Photoshop. Front-end development was done using Nextjs, Reactjs and Typescript, with data integration in REST API. The storybook was created and maintained with the style guide and web platform components." 
+    },
+    {
         id: "project-0",
+        highlight: true,
         title: "Humanized Maternity",
         category: "educational",
         mainPhoto: imgMaternidade,
@@ -124,6 +164,7 @@ export const en = [
     },
     {
         id: "project-1",
+        highlight: false,
         title: "Agência Cultivo [Cultivo Agency]",
         category: "professional",
         mainPhoto: imgCultivo,
@@ -133,6 +174,7 @@ export const en = [
     },
     {
         id: "project-2",
+        highlight: true,
         title: "A trip through RS",
         category: "professional",
         mainPhoto:imgViagem,
@@ -142,6 +184,7 @@ export const en = [
     },
     {
         id: "project-6",
+        highlight: false,
         title: "Ecocitrus",
         category: "professional",
         mainPhoto: imgEcocitrus3,
@@ -151,6 +194,7 @@ export const en = [
     },
     {
         id: "project-3",
+        highlight: false,
         title: "The sounds of Porto Alegre",
         category: "professional",
         mainPhoto: imgSons,
@@ -160,6 +204,7 @@ export const en = [
     },
     {
         id: "project-4",
+        highlight: false,
         title: "25 years without Kurt",
         category: "other-projects",
         mainPhoto: imgKurt,
@@ -169,6 +214,7 @@ export const en = [
     },
     {
         id: "project-5",
+        highlight: false,
         title: "100 Facts of 100 years of Gauchão",
         category: "other-projects",
         mainPhoto:imgGauchaoZh,
@@ -178,6 +224,7 @@ export const en = [
     },
     {
         id: "project-11",
+        highlight: false,
         title: "Mary Help",
         category: "educational",
         mainPhoto:imgMaryHelp,
